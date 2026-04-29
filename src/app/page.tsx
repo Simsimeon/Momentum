@@ -18,7 +18,7 @@ export default function Home() {
     // Hide splash screen after 5.5 seconds (User's preferred time)
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 5500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

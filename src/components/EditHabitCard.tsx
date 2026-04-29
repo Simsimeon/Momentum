@@ -145,14 +145,14 @@ export default function HabitCard({ habitId, name, description, frequency = "dai
                                 <button
                                     onClick={() => setIsEditing(true)}
                                     data-testid={`habit-edit-btn-${slug}`}
-                                    className="p-2 text-gray-300 hover:text-black opacity-0 group-hover:opacity-100 transition-all rounded-lg"
+                                    className="p-2 text-gray-300 hover:text-black opacity-100 group-hover:opacity-100 transition-all rounded-lg"
                                 >
                                     <Pencil size={18} />
                                 </button>
                                 <button
                                     onClick={() => setShowDeleteConfirm(true)}
                                     data-testid={`habit-delete-btn-${slug}`}
-                                    className="p-2 text-gray-300 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-all rounded-lg"
+                                    className="p-2 text-gray-300 hover:text-red-500 opacity-100 group-hover:opacity-100 transition-all rounded-lg"
                                 >
                                     <Trash2 size={18} />
                                 </button>
